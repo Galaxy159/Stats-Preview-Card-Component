@@ -103,8 +103,8 @@ body {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
   line-height: 1.7;
+  padding-right: 4rem;
   margin-bottom: 6rem;
-  padding-right: 6rem;
 }
 @media (max-width: 690px) {
   .text__text {
