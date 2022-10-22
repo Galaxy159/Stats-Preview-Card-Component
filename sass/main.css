@@ -32,7 +32,7 @@ body {
   background-color: #090b1a;
 }
 
-.container {
+.content {
   background-color: rgb(28, 26, 56);
   max-width: 115rem;
   margin: 15rem auto;
@@ -42,7 +42,7 @@ body {
   overflow: hidden;
 }
 @media (max-width: 690px) {
-  .container {
+  .content {
     grid-template-columns: 1fr;
     max-width: 33.7rem;
     margin: 8rem auto;
