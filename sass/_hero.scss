@@ -1,0 +1,21 @@
+.hero {
+  display: grid;
+  & img {
+    height: 100%;
+    width: 100%;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+
+  &::after {
+    background-color: hsl(277, 100%, 40%, 0.5);
+    content: "";
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  @media (max-width: 690px) {
+    grid-row: 1 / 2;
+  }
+}

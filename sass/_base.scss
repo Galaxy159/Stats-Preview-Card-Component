@@ -1,0 +1,56 @@
+$color-background-main: #090b1a;
+$color-background-card: rgb(28, 26, 56);
+$color-violet: hsl(277, 64%, 61%);
+$color-white: #ffffff;
+$color-paragraph-main: rgba(255, 255, 255, 0.75);
+$color-stats: rgba(255, 255, 255, 0.6);
+
+// FONT VARIABLES
+$font-inter: "Inter", sans-serif;
+$font-lexend-deca: "Lexend Deca", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media (max-width: 1150px) {
+    font-size: 50%;
+  }
+
+  @media (max-width: 920px) {
+    font-size: 37.5%;
+  }
+  @media (max-width: 690px) {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  font-family: $font-inter;
+  font-size: 1.5rem;
+  background-color: $color-background-main;
+}
+
+.container {
+  background-color: $color-background-card;
+  max-width: 115rem;
+  margin: 15rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 1rem;
+  overflow: hidden;
+
+  @media (max-width: 690px) {
+    grid-template-columns: 1fr;
+    max-width: 33.7rem;
+    margin: 8rem auto;
+  }
+}
