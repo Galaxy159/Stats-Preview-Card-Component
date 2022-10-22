@@ -61,7 +61,7 @@ body {
   grid-column: 1/2;
 }
 .hero::after {
-  background-color: hsla(277deg, 100%, 40%, 0.5);
+  background-color: hsla(277deg, 100%, 40%, 0.4);
   content: "";
   grid-column: 1/2;
   grid-row: 1/2;
