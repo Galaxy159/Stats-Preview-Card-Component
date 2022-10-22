@@ -35,6 +35,7 @@ body {
 .content {
   background-color: rgb(28, 26, 56);
   max-width: 115rem;
+  max-height: 45rem;
   margin: 15rem auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -46,6 +47,7 @@ body {
     grid-template-columns: 1fr;
     max-width: 33.7rem;
     margin: 8rem auto;
+    max-height: 100%;
   }
 }
 
