@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
-@media (max-width: 1110px) {
+@media (max-width: 1120px) {
   html {
     font-size: 50%;
   }
@@ -34,7 +34,7 @@ body {
 
 .content {
   background-color: rgb(28, 26, 56);
-  max-width: 111rem;
+  max-width: 112rem;
   max-height: 45rem;
   margin: 22vh auto;
   display: grid;
